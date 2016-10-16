@@ -1,0 +1,16 @@
+namespace Chapter7.SharePoint.WebReceiver
+{
+    /// <summary>
+    /// Web Events
+    /// </summary>
+    public class WebReceiver : SPWebEventReceiver
+    {
+       /// <summary>
+       /// A site was provisioned.
+       /// </summary>
+       public override void WebProvisioned(SPWebEventProperties properties)
+       {
+           base.WebProvisioned(properties);
+       }
+    }
+}

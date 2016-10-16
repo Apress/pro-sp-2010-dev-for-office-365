@@ -1,0 +1,1 @@
+bin\Debug\Chapter11.SharePoint.wsp

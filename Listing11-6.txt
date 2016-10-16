@@ -1,0 +1,12 @@
+PieChartDataService service = new PieChartDataService();
+
+service.GetData(
+    (fileTypes) =>
+        {
+            this.FileTypes = fileTypes;
+        },
+    (error) =>
+        {
+            // Display error to user
+        }
+);

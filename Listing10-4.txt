@@ -1,0 +1,29 @@
+public class PieChartDataService
+{
+	public void GetData(Action<List<PieChartFileType>> onSuccess, Action<string> onError)
+	{
+		try
+		{
+			ClientContext ctx = ClientContext.Current;
+			List mpGallery = ctx.Web.Lists.GetByTitle("Shared Documents");
+			CamlQuery query = new CamlQuery();
+			query.ViewXml = "<View Scope='Recursive' />";
+
+			ListItemCollection items = mpGallery.GetItems(query);
+
+			ctx.Load(items);
+			ctx.ExecuteQueryAsync(
+				(sender, successArgs) => {
+					// Process data and invoke onSuccess callback
+				},
+				(sender, failureArgs) => {
+					// Invoke onError callback
+				}
+			);
+		}
+		catch (Exception ex)
+		{
+			// Invoke onError callback
+		}
+	}
+}

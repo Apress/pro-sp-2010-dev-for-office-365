@@ -1,0 +1,13 @@
+var context = SP.ClientContext.get_current();
+var list = context.get_web().get_lists().getByTitle('Test List');
+var item = list.getItemById(2);
+item.deleteObject();
+context.executeQueryAsync(
+    Function.createDelegate(this, function() {
+        /* Do something when deletion succeeds */
+    }),
+    Function.createDelegate(this, function(s, args) {
+        alert(args.get_message());
+        /* Do something when deletion fails */
+    })
+);

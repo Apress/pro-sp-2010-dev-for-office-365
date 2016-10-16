@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Announcement (0x0104) -->
+  <Field ID="{D67EBB56-A947-459D-8895-D7F18944D237}"
+         Type="Boolean"
+         Name="ContosoShowOnHomePage"
+         DisplayName="Show On Home Page"
+         Group="Contoso Fields"
+         Description="Indicates whether item will be displayed on the site collection home page.">
+  </Field>
+  
+  <ContentType ID="0x0104007ba7567139aa41ddb84c6b93eabee061"
+               Name="Contoso Announcement"
+               Group="Contoso Content Types"
+               Description="An announcement that can optionally be rolled up to the site collection home page."
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{D67EBB56-A947-459D-8895-D7F18944D237}" Name="ContosoShowOnHomePage" Required="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

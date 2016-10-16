@@ -1,0 +1,13 @@
+<style type="text/css">
+#SPSitesMenu1 li {
+    padding:5px;
+}
+#SPSitesMenu1 a {
+    padding:5px;
+    text-decoration:none;
+}
+.currentSPSite {
+    background-color:blue;
+    color:#fff !important;
+}
+</style>

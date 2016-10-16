@@ -1,0 +1,9 @@
+public override WebProvisioned(SPWebEventProperties properties)
+{
+	SPSite site = properties.Web.Site;
+	SPWeb web = properties.Web;
+
+	web.MasterUrl = site.RootWeb.MasterUrl;
+	web.CustomMasterUrl = site.RootWeb.CustomMasterUrl;
+	web.Update();
+}

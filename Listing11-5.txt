@@ -1,0 +1,19 @@
+SmartDispatcher.BeginInvoke(() =>
+    {
+        List<PieChartFileType> fileTypes = new List<PieChartFileType>();
+
+        var groups =
+	        from item in items.ToArray()
+	        group item by (string)item["File_x0020_Type"];
+
+        foreach (var group in groups)
+        {
+            fileTypes.Add(new PieChartFileType(group.Key, group.Count()));
+        }
+
+        if (onSuccess != null)
+        {
+            onSuccess(fileTypes);
+        }
+    }
+);

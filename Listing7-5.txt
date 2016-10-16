@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Announcement (0x0104) -->
+  <ContentType ID="0x0104007ba7567139aa41ddb84c6b93eabee061"
+               Name="Chapter7.SharePoint - CustomAnnouncement"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+  </ContentType>
+</Elements>

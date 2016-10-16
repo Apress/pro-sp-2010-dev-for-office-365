@@ -1,0 +1,10 @@
+﻿<xapCache source="C:\dev\Chapter11\Chapter11.Silverlight\Bin\Debug\Chapter11.Silverlight.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="1/31/2012 9:32:52 PM">
+  <file source="C:\dev\Chapter11\Chapter11.Silverlight\obj\Debug\Chapter11.Silverlight.dll" archivePath="Chapter11.Silverlight.dll" lastWriteTime="1/31/2012 9:32:50 PM" />
+  <file source="C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\ClientBin\Microsoft.SharePoint.Client.Silverlight.dll" archivePath="Microsoft.SharePoint.Client.Silverlight.dll" lastWriteTime="6/19/2011 8:08:22 PM" />
+  <file source="C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\LAYOUTS\ClientBin\Microsoft.SharePoint.Client.Silverlight.Runtime.dll" archivePath="Microsoft.SharePoint.Client.Silverlight.Runtime.dll" lastWriteTime="10/20/2010 4:07:16 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Toolkit\dec11\Bin\System.Windows.Controls.DataVisualization.Toolkit.dll" archivePath="System.Windows.Controls.DataVisualization.Toolkit.dll" lastWriteTime="12/9/2011 11:25:04 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Toolkit\dec11\Bin\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="12/9/2011 11:25:04 AM" />
+  <file source="c:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Toolkit\dec11\Bin\System.Windows.Controls.Toolkit.Internals.dll" archivePath="System.Windows.Controls.Toolkit.Internals.dll" lastWriteTime="12/9/2011 11:25:04 AM" />
+  <file source="C:\dev\Chapter11\Chapter11.Silverlight\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="1/31/2012 9:32:51 PM" />
+</xapCache>

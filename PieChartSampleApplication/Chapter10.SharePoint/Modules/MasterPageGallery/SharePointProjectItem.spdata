@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MasterPageGallery\" Type="ElementManifest" />
+    <ProjectOutputFile ProjectId="fbc5f971-26ee-4c11-a0e1-3a92e036bda6" ProjectPath="..\Chapter10.Silverlight\Chapter10.Silverlight.csproj" Target="MasterPageGallery\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c3765c10-9a3e-4f2d-a43f-4d5a903e9e76" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Chapter11.SharePoint.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Chapter11.SharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45dbb30f55eb7055" Namespace="Chapter10.SharePoint.WebParts" TypeName="FileBreakdownPieChart" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Chapter10.SharePoint_Chapter10.Silverlight\Feature.xml" />
+  </FeatureManifests>
+</Solution>

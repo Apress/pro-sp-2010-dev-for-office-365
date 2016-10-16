@@ -1,0 +1,20 @@
+private void CreateNewCalendarItem()
+{
+    var context = SP.ClientContext.get_current();
+    var list = context.get_web().get_lists().getByTitle(“Calendar”);
+    var createInfo = new SP.ListItemCreationInformation();
+    var evt = list.addItem(createInfo);
+    evt.set_item(‘Title’, ‘My Event on September 20, 2011’);
+    evt.set_item(‘EventDate’, new Date(2011, 8, 20, 8));
+    evt.set_item(‘EndDate’, new Date(2011, 8, 20, 9));
+    evt.update();
+    context.executeQueryAsync(ListItemCreateSuccess, ListItemCreateFailure);
+}
+private void ListItemCreateSuccess(object sender, ClientRequestSucceededEventArgs e)
+{
+    // Code that executes when the operation was successful
+}
+private void ListItemCreateFailure(object sender, ClientRequestFailedEventArgs e)
+{
+    // Code that executes when something caused the operation to fail
+}

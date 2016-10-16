@@ -1,0 +1,3 @@
+<CustomAction GroupId="SiteTasks" RequireSiteAdministrator="TRUE" Id="GoodwillDenver.SiteSettings.SiteTasks.WebAnalytics" Location="Microsoft.SharePoint.SiteSettings" Sequence="105" Title="View Web Analytics">
+    <UrlAction Url="_layouts/UsageDetails.aspx" />
+</CustomAction>

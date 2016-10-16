@@ -1,0 +1,22 @@
+<div class="s4-pr s4-notdlg">
+    <ul id="SPSitesMenu1" >
+    <li><a href="http://{SiteURL}">Root Site</a></li>
+    <li><a href="http://{SiteURL}">SPD Demo Site</a></li>
+</ul>
+</div>
+<script type="text/javascript">
+//** Set selected entry in menu **//
+_spBodyOnLoadFunctionNames.push("setMenu");
+function setMenu() {
+    if (document.getElementById('SPSitesMenu1').getElementsByTagName('li')) {
+        var link;
+        for (var i = 0; (link = document.getElementById('SPSitesMenu1').getElementsByTagName('a')[i]); i++) {
+            if (link.href.indexOf(location.hostname) != -1) {
+                var node = document.createAttribute('class');
+                node.nodeValue = 'currentSPSite';
+                document.getElementById('SPSitesMenu1').getElementsByTagName('li')[i].getElementsByTagName('a')[0].setAttributeNode(node);
+            }
+        }
+    }
+}
+</script>

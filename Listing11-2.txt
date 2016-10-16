@@ -1,0 +1,23 @@
+public class PieChartViewModel : BaseViewModel
+{
+	public List<PieChartFileType> FileTypes
+	{
+		get { /* Return a list of PieChartFileType objects */ }
+		set { /* Set property value and notify view */ }
+	}
+
+	public string LegendTitle
+	{
+		get  { return "File Types"; }
+	}
+
+	public string Title
+	{
+		get { return "File Breakdown by Type"; }
+	}
+
+	public void Load()
+	{
+		// Get data from a service and load it into the ViewModel
+	}
+}

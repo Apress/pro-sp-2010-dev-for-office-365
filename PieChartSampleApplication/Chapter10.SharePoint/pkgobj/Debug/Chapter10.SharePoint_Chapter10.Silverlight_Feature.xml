@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Provisions a Silverlight 5 web part that shows the breakdown of file types in a document library using a pie chart." Id="22f6e83f-0ebd-4300-b946-16f6b8ab9014" ReceiverAssembly="Chapter11.SharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45dbb30f55eb7055" ReceiverClass="Chapter10.SharePoint.Features.Silverlight.Chapter10EventReceiver" Scope="Site" Title="Chapter 10 - Silverlight Pie Chart Web Part">
+  <ElementManifests>
+    <ElementManifest Location="MasterPageGallery\Elements.xml" />
+    <ElementFile Location="MasterPageGallery\Chapter11.Silverlight.xap" />
+    <ElementManifest Location="FileBreakdownPieChart\Elements.xml" />
+    <ElementFile Location="FileBreakdownPieChart\FileBreakdownPieChart.webpart" />
+  </ElementManifests>
+</Feature>

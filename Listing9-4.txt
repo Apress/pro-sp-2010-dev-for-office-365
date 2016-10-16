@@ -1,0 +1,17 @@
+var context = SP.ClientContext.get_current();
+var list = context.get_web().get_lists().getByTitle('Shared Documents');
+var query = new SP.CamlQuery();
+
+query.set_viewXml("<View><Query><Where><Eq><FieldRef Name='Author' /><Value Type='Integer'><UserID /></Value></Eq></Where></Query></View>");
+
+var items = list.getItems(query);
+context.load(items, 'Include(DisplayName, HasUniqueRoleAssignments)');
+context.executeQueryAsync(
+    Function.createDelegate(this, function() {
+        var item = items.get_item(0);
+        alert('Success: ' + item.get_displayName() + ', ' + item.get_hasUniqueRoleAssignments());
+    }),
+    Function.createDelegate(this, function(sender, args) {
+        alert('Failure: ' + args.get_message());
+    })
+);

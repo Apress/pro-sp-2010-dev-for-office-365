@@ -1,0 +1,6 @@
+C:\dev\Chapter11\Chapter11.SharePoint\bin\Debug\Chapter11.SharePoint.dll
+C:\dev\Chapter11\Chapter11.SharePoint\bin\Debug\Chapter11.SharePoint.pdb
+C:\dev\Chapter11\Chapter11.SharePoint\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
+C:\dev\Chapter11\Chapter11.SharePoint\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Chapter11\Chapter11.SharePoint\obj\Debug\Chapter11.SharePoint.dll
+C:\dev\Chapter11\Chapter11.SharePoint\obj\Debug\Chapter11.SharePoint.pdb

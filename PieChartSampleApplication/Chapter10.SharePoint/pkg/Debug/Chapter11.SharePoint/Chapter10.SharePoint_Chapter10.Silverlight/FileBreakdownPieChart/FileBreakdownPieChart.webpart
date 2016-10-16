@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Chapter10.SharePoint.WebParts.FileBreakdownPieChart, Chapter11.SharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=45dbb30f55eb7055" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">File Breakdown Pie Chart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

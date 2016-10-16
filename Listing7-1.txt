@@ -1,0 +1,10 @@
+namespace Chapter7.SharePoint.WebPart1
+{
+	[ToolboxItemAttribute(false)]
+	public class WebPart1 : WebPart
+	{
+		protected override void CreateChildControls()
+		{
+		}
+	}
+}

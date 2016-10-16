@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="FileBreakdownPieChart" List="113" Url="_catalogs/wp">
+    <File Path="FileBreakdownPieChart\FileBreakdownPieChart.webpart" Url="FileBreakdownPieChart.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Chapter 11 Samples" />
+    </File>
+  </Module>
+</Elements>

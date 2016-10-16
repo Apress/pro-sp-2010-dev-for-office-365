@@ -1,0 +1,13 @@
+var context = SP.ClientContext.get_current();
+var list = context.get_web().get_lists().getByTitle('Test List');
+var item = list.getItemById(2);
+item.set_item('Title', 'New Title');
+item.update();
+context.executeQueryAsync(
+    Function.createDelegate(this, function() {
+        /* Do something when update succeeds */
+    }),
+    Function.createDelegate(this, function(s, args) {
+        /* Do something when update fails */
+    })
+);

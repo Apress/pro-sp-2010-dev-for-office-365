@@ -1,0 +1,11 @@
+ClientContext context = ClientContext.Current;
+WebCollection webs = context.Web.Webs;
+WebCreationInformation webCreateInfo = new WebCreationInformation();
+webCreateInfo.Title = "New Site";
+webCreateInfo.Description = "Description of new site.";
+webCreateInfo.Language = 1033;
+webCreateInfo.Url = "NewSite";
+webCreateInfo.UseSamePermissionsAsParentSite = true;
+webCreateInfo.WebTemplate = "STS#0"; // Team Site Template
+webs.Add(webCreateInfo);
+context.ExecuteQueryAsync(OnSuccess, OnFailure);

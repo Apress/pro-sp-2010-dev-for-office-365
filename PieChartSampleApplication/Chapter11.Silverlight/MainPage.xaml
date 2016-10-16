@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Chapter11.Silverlight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Margin="10" Background="White">
+        <toolkit:Chart LegendTitle="{Binding LegendTitle}" Title="{Binding Title}">
+            <toolkit:Chart.Series>
+                <toolkit:PieSeries
+                    ItemsSource="{Binding FileTypes}"
+                    DependentValueBinding="{Binding Count}"
+                    IndependentValueBinding="{Binding TypeName}" />
+            </toolkit:Chart.Series>
+        </toolkit:Chart>
+    </Grid>
+</UserControl>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPageGallery" Url="_catalogs/masterpage">
+    <File Path="MasterPageGallery\Chapter11.Silverlight.xap" Url="Chapter11.Silverlight.xap" />
+  </Module>
+</Elements>
